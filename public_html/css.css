@@ -1,0 +1,15 @@
+main{max-width: 800px;}
+#jatekter {
+    display:  grid;
+    grid-template-columns:1fr 1fr 1fr;
+   grid-gap:10px;   
+}
+
+#jatekter div img {
+    width: 100%;
+    background-color: purple;
+}
+#jatekter img  {
+    padding: 10px;
+    background-color: lightblue;
+}
